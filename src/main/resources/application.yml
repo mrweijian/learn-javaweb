@@ -1,0 +1,15 @@
+#Prometheus springboot监控配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*' # 暴露端点
+  metrics:
+    tags:
+      application: weijian # 暴露的数据中添加application label
+  endpoint:
+    health:
+      show-details: always # 设置health点点暴露详细信息
+spring:
+  profiles:
+    active: @profiles.active@
