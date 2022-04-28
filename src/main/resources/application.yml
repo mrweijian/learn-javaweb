@@ -12,4 +12,4 @@ management:
       show-details: always # 设置health点点暴露详细信息
 spring:
   profiles:
-    active: @profiles.active@
+    active: dev

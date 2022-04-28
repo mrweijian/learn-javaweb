@@ -6,9 +6,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.web.socket.config.annotation.EnableWebSocket;
 
 //@SpringBootApplication(exclude = {LogbackMetricsAutoConfiguration.class, JvmMetricsAutoConfiguration.class})
-@EnableScheduling
+// @EnableScheduling
 @SpringBootApplication
-@EnableWebSocket
+// @EnableWebSocket
 public class SpringPrometheusApplication{
 
     public static void main(String[] args) {
